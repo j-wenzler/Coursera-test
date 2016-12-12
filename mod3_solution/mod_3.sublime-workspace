@@ -1,0 +1,434 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"mar\tCSS - margin: 0;"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tetx",
+				"text-align"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"navba",
+				"navbar-header"
+			],
+			[
+				"cont",
+				"container-fluid"
+			],
+			[
+				"con",
+				"container-fluid"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5192,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "body {\n  font-size: 16px;\n  font-family: 'Oxygen', sans-serif;\n}\n\n/** HEADER **/\n#my_navbar_header {\n  color: #a26;\n  background-color: #bbb;\n  border-radius: 0;\n  border: 2px solid black;\n}\n\n#my_navbar_header a{\n\ttext-decoration: none;\n\tcolor: inherit;\n\tfont-size: 1.8em;\n}\n\n.navbar-header button.navbar-toggle{\n  border: solid 1.5px;\n  color: #f5c;\n  background-color: #ddd;\n}\n\n.navbar-header button.navbar-toggle .icon-bar{\nborder: inherit;\ncolor: inherit;\n}\n\n.navbar-header button.navbar-toggle:hover{\n  color:#f5c;\n}\n\n.navbar-header button.collapsed{\n\tcolor:#a26;\n\tbackground-color: #bbb;\n}\n\n#collapsable-nav{\n\tborder-top: solid 2px #111;\n\tbackground-color: #ddd;\n\tfont-size: 1.4em;\n\ttext-align: center;\n}\n\n#collapsable-nav *{\n\tborder-color: #000;\n\tborder-width: 2px;\n\tmargin: 5px 0 2px;\n}\n\n/** MENU TEXT **/\n.main_heading{\n\tpadding-left: 15px;\t\t\n\ttext-align: center;\n\tfont-size: 1.6em;\n\tcolor:#6a2;\n\tfont-weight:600;\n}\n.food_item {\n\tbackground-color: #ccc;\n\tpadding: 4px 15px 4px;\n\tmargin-bottom: 15px;\n}\n\n.food_item > h2{\n\tfont-size: 1.4em;\n\tcolor: #26a;\n\ttext-align: center;\n}\n\n.food_item > a{\n\tfont-size: 1em;\n\tcolor: #26a;\n}\n\n",
+			"file": "css/styles.css",
+			"file_size": 1135,
+			"file_write_time": 131260081604796703,
+			"settings":
+			{
+				"buffer_size": 1136,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wra",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"codeint",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"boun",
+				"List bound keys"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"IN",
+				"Package Control: Install Package"
+			],
+			[
+				"Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 167.0,
+		"history":
+		[
+			"sublime.log_input(False)",
+			"sublime.log_input(True)",
+			"sublime.log_input(False)",
+			"sublime.log_input(True)",
+			"sublime.log_input(true)",
+			"quit",
+			"exit",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os; pf = 'Package Control.sublime-package';",
+			"1+1"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jonas/Documents/LearnHTML/Coursera-test/mod3_solution",
+		"/home/jonas/Documents/LearnHTML/Coursera-test/mod3_solution/css"
+	],
+	"file_history":
+	[
+		"/home/jonas/Documents/LearnHTML/Coursera-test/mod3_solution/css/bootstrap.css",
+		"/home/jonas/Documents/LearnHTML/Coursera-test/mod3_solution/#index.html#",
+		"/home/jonas/Documents/LearnHTML/Coursera-test/mod3_solution/index.html",
+		"/home/jonas/Documents/LearnHTML/Coursera-test/mod3_solution/css/styles.css",
+		"/home/jonas/Documents/LearnHTML/fullstack-course4-master/examples/Lecture39/after/index.html",
+		"/home/jonas/.config/sublime-text-3/Packages/sublemacspro/Default.sublime-keymap",
+		"/home/jonas/Documents/LearnHTML/Coursera-test/mod2_solution/index.html",
+		"/home/jonas/Documents/LearnHTML/Coursera-test/mod2_solution/stylesheets/css/styles.css",
+		"/home/jonas/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/jonas/Documents/LearnHTML/Coursera-test/mod2_solution/css/styles.css",
+		"/home/jonas/Dropbox/Coursera/HTML_CSS/test_browserSync/index.html"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<a",
+			"FoodItem",
+			"food_item",
+			"\\[.\\]",
+			"mark",
+			"container-fluid",
+			"confl",
+			"all",
+			"<div class=\"container\">",
+			".col-style",
+			"    float: left;\n    border: 1px solid green;\n",
+			"color",
+			" Excepteur sint occaecat cupidatat non\n  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+			" \n  ",
+			"\n    ",
+			"p",
+			"tabl",
+			"mobi",
+			"col-lg-3 col-md-6",
+			"tabl",
+			"desk",
+			"lg"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"desk",
+			"tabl",
+			"mobi",
+			"tabl",
+			"  .col-desk-1, .col-desk-2, .col-desk-3, .col-desk-4, .col-desk-5, .col-desk-6{\n    float: left;\n    border: 1px solid green;\n  }\n  .col-desk-1 {\n    width: 16.66%;\n  }\n  .col-desk-2 {\n    width: 33.33%;\n  }\n  .col-desk-3 {\n    width: 50%;\n  }\n  .col-desk-4 {\n    width: 66.66%;\n  }\n  .col-desk-5 {\n    width: 83.33%;\n  }\n  .col-desk-6 {\n    width: 100%;\n  }\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1589,
+								1589
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2016.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1136,
+								1136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1218.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mod_3",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/LearnHTML/fullstack-course4-master/untitled.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,86 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#my_navbar_header {
+  color: #a26;
+  background-color: #bbb;
+  border-radius: 0;
+  border: 2px solid black;
+  margin-bottom: 5px;
+}
+
+#my_navbar_header a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle{
+  border: solid 1.5px;
+  color: #f5c;
+  background-color: #ddd;
+}
+
+.navbar-header button.navbar-toggle .icon-bar{
+border: inherit;
+color: inherit;
+}
+
+.navbar-header button.navbar-toggle:hover{
+  color:#f5c;
+}
+
+.navbar-header button.collapsed{
+	color:#a26;
+	background-color: #bbb;
+}
+
+
+
+/** MENU TEXT **/
+.main_heading{
+	padding:0px auto 0px 15px;	
+}
+
+h1{
+	text-align: center;
+	font-size: 1.6em;
+	color:#6a2;
+	font-weight:600;
+}
+
+.food_item {
+	background-color: #ccc;
+	padding: 2px 15px 4px;
+	margin-bottom: 15px;
+}
+
+.food_item > h2{
+	font-size: 1.4em;
+	color: #26a;
+	text-align: center;
+}
+
+.food_item > a{
+	font-size: 1em;
+	color: #26a;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Collapsable nav */
+#collapsable-nav{
+	border-top: solid 2px #111;
+	background-color: #ddd;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+#collapsable-nav *{
+	border-color: #000;
+	border-width: 2px;
+	margin: 5px 0 2px;
+}
